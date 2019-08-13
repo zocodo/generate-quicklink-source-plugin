@@ -1,0 +1,30 @@
+{
+  "name": "generate-quicklink-source-plugin",
+  "version": "1.0.1",
+  "description": "a plugin to generate source list for quicklink",
+  "main": "build/index.js",
+  "scripts": {
+    "example": "webpack --config ./example/config.js",
+    "inject:example": "webpack --config ./example/injectConfig.js"
+  },
+  "peerDependencies": {
+    "webpack": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrChongdong/generate-quicklink-source-plugin"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "generate source list",
+    "for quicklink",
+    "generate-quicklink-source-plugin"
+  ],
+  "author": "MrChongdong",
+  "license": "ISC"
+}
